@@ -1,0 +1,23 @@
+.button {
+    margin-bottom: 10px;
+}
+
+.button button {
+    outline: none;
+    border: 1px solid #00b283;
+    padding: 8px 16px;
+    border-radius: 4px;
+
+    background-color: #16c899;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+
+    cursor: pointer;
+    transition: 300ms;
+}
+
+.button button:hover {
+    background-color: #00b283;
+    transform: scale(1.1);
+}

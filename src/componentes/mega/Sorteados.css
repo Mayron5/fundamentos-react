@@ -1,0 +1,40 @@
+.title {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.sorteados {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 4px;
+}
+
+.sorteados button {
+    display: block;
+    outline: none;
+    border: none;
+}
+
+.sorteado {
+    width: 40px;
+    height: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    box-shadow: 0 3px 6px rgba(222, 219, 219, 0.709);
+    
+    user-select: none;
+    border-radius: 50%;
+
+    transition: 300ms;
+}
+
+.sorteado:hover {
+    background-color: #00b283;
+    color: #FFF;
+    cursor: pointer;
+}
